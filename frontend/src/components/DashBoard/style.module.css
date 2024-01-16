@@ -1,0 +1,70 @@
+* {
+  background-color: #092635;
+}
+.dashboard {
+  width: 80%;
+  height: 60%;
+  background-color: #092635;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  padding: 12px;
+  text-align: left;
+  color: white;
+}
+
+th {
+  color: white;
+}
+
+tr:hover {
+  background-color: #40a9ff;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  width: 70%;
+  padding: 8px;
+}
+
+.item,
+.editButton,
+.deleteButton {
+  cursor: pointer;
+  border: none;
+  background-color: #1b4242;
+  color: white;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+.item,
+editButton icon {
+  color: white;
+  background-color: #1b4242;
+}
+.icons {
+  color: green;
+  background-color: #1b4242;
+}
+
+.item:hover,
+.editButton:hover,
+.deleteButton:hover,
+.icons:hover {
+  background-color: #135151;
+}

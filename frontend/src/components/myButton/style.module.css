@@ -1,0 +1,27 @@
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px; /* Adjust padding for better spacing */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition for the hover effect */
+  width: 200px;
+  height: auto;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for focus state */
+}
+
+/* Additional styles for disabled state */
+.button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}

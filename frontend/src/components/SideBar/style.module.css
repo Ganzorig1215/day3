@@ -1,0 +1,43 @@
+/* sidebar.module.css */
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  position: relative;
+  background-color: #092635;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  width: 90%;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #40a9ff;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Add a class to shift content when sidebar is open */
+.shiftedContent {
+  margin-left: 250px;
+  transition: margin-left 0.3s;
+}
